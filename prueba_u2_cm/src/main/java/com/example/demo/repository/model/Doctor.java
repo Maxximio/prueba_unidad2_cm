@@ -39,7 +39,7 @@ public class Doctor {
 	@Column(name = "doct_numero_consultorio")
 	private String numeroConsultorio;
 	
-	@Column(name = "doct_titulo")
+	@Column(name = "doct_titulo")//codifgo senesyt
 	private String titulo;
 	
 	@Column(name = "doct_salario")

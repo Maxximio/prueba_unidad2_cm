@@ -41,7 +41,7 @@ public class CitaMedica {
 	@Column(name = "cime_receta")
 	private String receta;
 	
-	@Column(name = "cime_fecha_control")
+	@Column(name = "cime_fecha_control")//fecha siguiente cita
 	private LocalDateTime fechaControl;
 	
 	@ManyToOne

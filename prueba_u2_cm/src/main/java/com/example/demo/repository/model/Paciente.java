@@ -35,7 +35,7 @@ public class Paciente {
 	@Column(name="paci_fecha")
 	private LocalDateTime fechaNacimiento;
 	
-	@Column(name="paci_codigo_iess")
+	@Column(name="paci_codigo_iess")//codigo seguro
 	private String codigoIess;
 	
 	@Column(name="paci_estatura")
